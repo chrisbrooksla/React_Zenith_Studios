@@ -32,7 +32,7 @@ import Image30 from '../img/album-art/thumbs/30.jpg'
 import Image31 from '../img/album-art/thumbs/31.jpg'
 import Image32 from '../img/album-art/thumbs/32.jpg'
 import Image33 from '../img/album-art/thumbs/23-1.jpg'
-import{Link} from 'react-router-dom'
+
 
 
 
