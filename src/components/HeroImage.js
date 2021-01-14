@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
 import StudioPicture from '../studio-pics/burgundy.jpg'
+import {Container, Row, Col} from 'reactstrap'
 
 function HeroImage(){
     return(
-        <div>
+        <Container fluid>
+        <Row>
+            <Col>
             <img src={StudioPicture} style={{height:'auto', width:'100%'}}></img>
-        </div>
+            </Col>
+            </Row>
+        </Container>
     )
 }
 export default HeroImage

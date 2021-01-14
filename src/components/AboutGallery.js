@@ -32,15 +32,17 @@ import Image30 from '../img/album-art/thumbs/30.jpg'
 import Image31 from '../img/album-art/thumbs/31.jpg'
 import Image32 from '../img/album-art/thumbs/32.jpg'
 import Image33 from '../img/album-art/thumbs/23-1.jpg'
-
+import { Container, Row, Col } from "reactstrap";
 
 
 
 function AboutGallery(){
     return(
-        <div class="container">
-        <div class="row" id="about-gallery">
-            <div class="col-md-12 mx-auto">
+      <Container style={{display:'flex'}}>
+        <Row className="justify-content-center">
+        <Col >
+        
+            
             <a
                 href="https://www.amazon.com/OK-COMPUTER-OKNOTOK-1997-2017/dp/B071DTQH43/ref=sr_1_1?dchild=1&keywords=ok+computer&qid=1606427485&sr=8-1" target="_blank">
             <img src={Image1} id="img-thumb"></img>
@@ -174,9 +176,11 @@ function AboutGallery(){
             <img  src={Image33} id="img-thumb"></img>
             </a>
             
-        </div>
-        </div>
-        </div>
+        
+        </Col>
+        </Row>
+        
+        </Container>
     )
 }
 
