@@ -8,7 +8,7 @@ function About() {
    return (
       <React.Fragment>
          
-      <HeroImage/>
+      <HeroImage />
       <StudioDescription/>
 
       <AboutGallery/>

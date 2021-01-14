@@ -21,11 +21,11 @@ margin-top: 0;
 
 /* navbar */
 .navbar {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
   padding: 0%;
   float: none;
-  
+ 
    }
 
 
@@ -69,16 +69,19 @@ margin-top: 0;
 .carousel-item {
   width: 100%;
   height: 500px; 
+  
 }
 
+.carousel {
+  border: solid 1px #bbbbbb;
+  margin-bottom: 60px;
+  margin-top:50px;
+}
 /* end carousel */
-
-
-.hero{
-   width: 100%;
-  height: 500px; 
-  margin-bottom: 50px;
+.home-card-area{
+margin-bottom: 60px;
 }
+
 
 .card {
   background-color: transparent;
@@ -106,23 +109,37 @@ margin-top: 0;
 }
 
 
-
+#img-thumb{
+  border: solid 0.5px #bbbbbb
+}
 
 
 
 
 .about-gallery {
 
-  border: solid 1px white;
+  border: solid 1px #bbbbbb;
   
 }
 
 
 
+.hero-image{
+  border: solid 1px #bbbbbb;
+  width: 100%;
+  height: 500px; 
+  margin-bottom: 60px;
+  margin-top:10px
+}
+
 
 
 
 /* contact form */
+
+.cardImg{
+  border: solid 2px #bbbbbb;
+}
 
 .card {
   width: 500px;

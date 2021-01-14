@@ -43,7 +43,7 @@ function AboutGallery(){
         <Col >
         
             
-            <a
+            <a 
                 href="https://www.amazon.com/OK-COMPUTER-OKNOTOK-1997-2017/dp/B071DTQH43/ref=sr_1_1?dchild=1&keywords=ok+computer&qid=1606427485&sr=8-1" target="_blank">
             <img src={Image1} id="img-thumb"></img>
             </a>
@@ -57,7 +57,7 @@ function AboutGallery(){
             </a>
             <a 
                 href="https://www.amazon.com/Stand-Sly-Family-Stone/dp/B0013384JM/ref=pd_sbs_15_3/135-1865741-6714302?_encoding=UTF8&pd_rd_i=B0013384JM&pd_rd_r=4a305d69-cec4-4915-a732-8982c08ecb0c&pd_rd_w=vvUcY&pd_rd_wg=pGXUB&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=8B202KQ125W6Q0EPRAVJ&psc=1&refRID=8B202KQ125W6Q0EPRAVJ"target="_blank">
-            <img  src={Image4} id="img-thumb"></img>
+            <img  className="gallery-thumb"src={Image4} id="img-thumb"></img>
             </a>
             <a 
                 href="https://www.amazon.com/Blood-Tracks-Bob-Dylan/dp/B00026WU7I/ref=sr_1_1?crid=32RGH0KXWMGTN&dchild=1&keywords=blood+on+the+tracks&qid=1606429169&s=music&sprefix=blood+on%2Cpopular%2C196&sr=1-1"target="_blank">

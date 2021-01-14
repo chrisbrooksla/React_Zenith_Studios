@@ -4,10 +4,10 @@ import {Container, Row, Col} from 'reactstrap'
 
 function HeroImage(){
     return(
-        <Container fluid>
+        <Container fluid className ="hero-image-area">
         <Row>
             <Col>
-            <img src={StudioPicture} style={{height:'auto', width:'100%'}}></img>
+            <img className="hero-image" src={StudioPicture} style={{height:'auto', width:'100%'}}></img>
             </Col>
             </Row>
         </Container>
