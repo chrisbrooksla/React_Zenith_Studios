@@ -4,17 +4,19 @@ import AboutDescription from './AboutDescription'
 import AboutGallery from './AboutGallery'
 import {Container, Row, Col} from 'reactstrap'
 
-function About() {
+function NewStudios() {
    return (
-      <React.Fragment>
-         
-      <AboutHeroImage />
-      <AboutDescription/>
-
-      <AboutGallery/>
-      
-        </React.Fragment>
+    return (
+        <React.Fragment>
+           
+        <AboutHeroImage />
+        <AboutDescription/>
+  
+        <AboutGallery/>
+        
+          </React.Fragment>
+     )
    )
 }
 
-export default About
+export default NewStudios

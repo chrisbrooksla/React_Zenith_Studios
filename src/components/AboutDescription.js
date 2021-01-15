@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 
 
-function StudioDescription() {
+function AboutDescription() {
   return (
     <React.Fragment>
       <Container className="mt-5">
@@ -44,4 +44,4 @@ function StudioDescription() {
   );
 }
 
-export default StudioDescription;
+export default AboutDescription;

@@ -4,7 +4,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle,CardHeader,CardImgOverlay,
 import {Link} from 'react-router-dom'
 
 
-class StudioCard extends Component{
+class HomeStudioCard extends Component{
       constructor(props){
             super(props);
       }
@@ -26,7 +26,7 @@ render(){
                                     
                                     <br/>
                                     
-                                    <Button tag={Link} to="/studios">Details</Button>
+                                    <Button tag={Link} to={this.props.studio.section}>Details</Button>
                                     
                                    
                               </CardBody>
@@ -38,4 +38,4 @@ render(){
 }
 
 
-export default StudioCard
+export default HomeStudioCard
