@@ -11,22 +11,18 @@ import StudioCDetails from './StudioCDetails'
 import StudioCHero from './StudioCHero'
 
 function Studios() {
-   return (
-      <React.Fragment>
-         
+  return (
+    <React.Fragment>
       <StudioAHero />
-      <StudioADetails/>
+      <StudioADetails />
 
       <StudioBHero />
-      <StudioBDetails/>
+      <StudioBDetails />
 
       <StudioCHero />
-      <StudioCDetails/>
-
-      
-      
-        </React.Fragment>
-   )
+      <StudioCDetails />
+    </React.Fragment>
+  );
 }
 
 export default Studios

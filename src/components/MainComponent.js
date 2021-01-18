@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Gallery from "./Gallery";
+import GalleryComponent from "./GalleryComponent";
 import Studios from "./Studios";
-import Staff from "./Staff";
+import Staff1 from "./Staff1";
 import Footer from "./Footer";
 import Home from "./Home";
 import Contact from './Contact';
@@ -28,9 +28,9 @@ class Main extends Component {
                {" "}
                <Route path="/studios" component={Studios} />
                {" "}
-               <Route path="/staff" component={Staff} />
+               <Route path="/staff" component={Staff1} />
                {" "}
-               <Route path="/gallery" component={Gallery} />
+               <Route path="/gallery" component={GalleryComponent} />
                {" "}
                <Route exact path="/contactus" component={Contact} />
                {" "}
