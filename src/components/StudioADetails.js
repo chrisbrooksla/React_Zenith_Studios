@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 function StudioADetails() {
   return (
     <React.Fragment>
-      <Container className="mt-5">
+      <Container className="mt-5" id="studio-a">
         <Row>
           <Col>
             <h1>Studio A</h1>

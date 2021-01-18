@@ -31,9 +31,9 @@ class Header extends Component {
     return (
       <React.Fragment>
         <Navbar
-          className="navbar navbar-expand-sm navbar-dark center"
+          className="navbar navbar-expand-xl navbar-dark "
           dark
-          expand="md"
+          // expand="xl"
         >
           <div className="container">
             <NavbarBrand className="navbar-brand" href="/">
@@ -42,7 +42,7 @@ class Header extends Component {
             <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>
               <Nav navbar>
-                <div className="navbar-nav navbar-left">
+                <div className="navbar-nav ">
                   <NavItem className="nav-item">
                     <NavLink className="nav-link" to="/home">
                       Home

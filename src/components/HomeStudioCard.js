@@ -9,6 +9,9 @@ import {
   CardImgOverlay,
   CardSubtitle,
   Button,
+  Container,
+  Row,
+  Col,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -20,25 +23,34 @@ class HomeStudioCard extends Component {
   render() {
     return (
       <React.Fragment>
-        <Card>
-          <CardHeader tag="h1">{this.props.studio.name}</CardHeader>
+        <Container class="home-studio-card-area">
+          <Row>
+            <Col>
+              <Card>
+                <CardHeader tag="h1">{this.props.studio.name}</CardHeader>
 
-          <CardImg
-            className="cardImg"
-            height="300"
-            src={this.props.studio.image}
-          />
+                <CardImg
+                  className="cardImg"
+                  height="100%"
+                  width="100%"
+                  src={this.props.studio.image}
+                />
 
-          <CardBody>
-            <CardSubtitle tag="h3">{this.props.studio.tagline}</CardSubtitle>
+                <CardBody>
+                  <CardSubtitle tag="h3">
+                    {this.props.studio.tagline}
+                  </CardSubtitle>
 
-            <br />
+                  <br />
 
-            <Button tag={Link} to={this.props.studio.section}>
-              Details
-            </Button>
-          </CardBody>
-        </Card>
+                  <Button tag={Link} to={this.props.studio.section}>
+                    Details
+                  </Button>
+                </CardBody>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
       </React.Fragment>
     );
   }

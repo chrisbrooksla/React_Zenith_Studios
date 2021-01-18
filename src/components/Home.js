@@ -47,8 +47,9 @@ class Home extends Component {
 
     return (
       <React.Fragment>
-        <HomeCarousel className="carousel" />
         <Container fluid className="home-card-area">
+          <HomeCarousel className="carousel" />
+
           <Row>{studioCards}</Row>
         </Container>
       </React.Fragment>
