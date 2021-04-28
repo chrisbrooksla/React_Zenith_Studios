@@ -8,7 +8,7 @@ function StudioBHero() {
         <Col>
           <img
             className="hero-image"
-            src="/Assets/img/studio-pics/list-pics/abbey-road-studio.png"
+            src="../Assets/img/studio-pics/list-pics/abbey-road-studio.png"
             style={{ height: "auto", width: "100%" }}
           ></img>
         </Col>
