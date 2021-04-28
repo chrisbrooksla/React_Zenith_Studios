@@ -36,9 +36,9 @@ import { Container, Row, Col } from "reactstrap";
 
 function AboutGallery() {
   return (
-    <Container style={{ display: "flex" }}>
+    <Container id="about-gallery-container" style={{ display: "flex" }}>
       <Row className="justify-content-center">
-        <Col>
+        <Col id="about-gallery">
           <a
             href="https://www.amazon.com/OK-COMPUTER-OKNOTOK-1997-2017/dp/B071DTQH43/ref=sr_1_1?dchild=1&keywords=ok+computer&qid=1606427485&sr=8-1"
             target="_blank"

@@ -118,6 +118,8 @@ margin-top: 0;
 #about-gallery {
   margin-top: 20px;
   margin-bottom: 100px;
+  
+  
 }
 
 
@@ -193,6 +195,7 @@ margin-top: 0;
 
 #studio-b {
   margin-top: 50px;
+  
   }
 
   #studio-c {
@@ -220,16 +223,4 @@ margin-top: 0;
 
 
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
